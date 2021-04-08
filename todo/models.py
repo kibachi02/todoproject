@@ -19,3 +19,4 @@ class TodoModel(models.Model):
     # オブジェクトが作成されたときに実行される関数
     def __str__(self):
         return self.title
+
